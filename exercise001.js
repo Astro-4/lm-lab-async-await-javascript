@@ -22,12 +22,12 @@ const promise = new Promise((resolve, reject) => {
 //   });
 
 //asynchronously solves the problem using async and await
-const getPromiseResponse = async () => {
-  try {
-    const result = await promise;
-    console.log(`Yay! Promise resolved with response: ${result}`);
-  } catch (error) {
-    console.log(`Boo. Promise rejected with response: ${error}`);
-  }
-};
-getPromiseResponse();
+// const getPromiseResponse = async () => {
+try {
+  const result = await promise;
+  console.log(`Yay! Promise resolved with response: ${result}`);
+} catch (error) {
+  console.log(`Boo. Promise rejected with response: ${error}`);
+}
+// };
+// getPromiseResponse();
